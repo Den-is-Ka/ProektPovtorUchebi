@@ -88,3 +88,4 @@ print(type(list_ru))
 
 
 
+
