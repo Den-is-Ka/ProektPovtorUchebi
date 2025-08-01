@@ -60,7 +60,32 @@
 # elif 'a' in info or 'e' in info:
 #     print('Слово допустимо!')
 
+# info = str(input('Введите текст!'))
+# subs = 'а'
+#
+# if 'a' in info:
+#     pervaia = info.find('a')
+#     v_kohce = info.rfind('a')
+#     print(f'первая на позиции {pervaia} ')
+#     print(f'последняя на позиции {v_kohce} ')
+# else:
+#     print(f'подстроки {subs} нету ')
 
+# text = input("Введите строку: ")
+# first_pos = text.find('е')
+#
+# if first_pos != -1:
+#     second_pos = text.find('е', first_pos + 1)
+#     if second_pos != -1:
+#         print(f"Вторая буква 'е' находится на позиции {second_pos}")
+#     else:
+#         print("Второй буквы 'е' не найдено")
+# else:
+#     print("Буква 'е' не найдена совсем")
+
+# text = "123d45"
+# result = text.isdigit()
+# print(result)
 
 
 
