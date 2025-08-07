@@ -52,9 +52,9 @@
 #     pet_info('Люська', "кошка", 34)
 #     pet_info('Мяфька', "рыба", 4)
 #     # print(result)
-
-def pet_info(name, animal, age):
-    return f'{name} {animal} {age}'
+#
+# def pet_info(name, animal, age):
+#     return f'{name} {animal} {age}'
 
 # result = pet_info('Люська', "кошка", 34)
 # print(result)
@@ -242,16 +242,16 @@ def pet_info(name, animal, age):
 # finally:
 #     print('Ну все')
 
-try:
-    code = input("введи имя: ")
-    forbidden = ["admin", "root", "moder"]
-    if " " in code:
-        raise ValueError('зачем тут пробел')
-    if code.lower() in forbidden:
-        raise ValueError('запрещенка')
-except ValueError as e:
-    print('Ошибка:', e)
-else:
-    print('имя принято')
-finally:
-    print('Ну все')
+# try:
+#     code = input("введи имя: ")
+#     forbidden = ["admin", "root", "moder"]
+#     if " " in code:
+#         raise ValueError('зачем тут пробел')
+#     if code.lower() in forbidden:
+#         raise ValueError('запрещенка')
+# except ValueError as e:
+#     print('Ошибка:', e)
+# else:
+#     print('имя принято')
+# finally:
+#     print('Ну все')

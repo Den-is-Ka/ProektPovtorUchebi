@@ -37,25 +37,25 @@
 # print(info_4)
 
 
-text = "My favorite color is RED."
-old_color = "RED"
-new_color = "bRRRRRRe"
-
-
-formatted_text = text.replace(old_color, new_color)
-formatted_text_1 = text.replace('o', '0')
-formatted_text_2 = text
-text_1 = formatted_text_2.split()
-text_2 = formatted_text_2.split('o')
-text_3 = formatted_text_2.split('o', 2)
-text_4 = ' † '.join(text_1)
-
-print(formatted_text)
-print(formatted_text_1)
-print(text_1)
-print(text_2)
-print(text_3)
-print(text_4)
+# text = "My favorite color is RED."
+# old_color = "RED"
+# new_color = "bRRRRRRe"
+#
+#
+# formatted_text = text.replace(old_color, new_color)
+# formatted_text_1 = text.replace('o', '0')
+# formatted_text_2 = text
+# text_1 = formatted_text_2.split()
+# text_2 = formatted_text_2.split('o')
+# text_3 = formatted_text_2.split('o', 2)
+# text_4 = ' † '.join(text_1)
+#
+# print(formatted_text)
+# print(formatted_text_1)
+# print(text_1)
+# print(text_2)
+# print(text_3)
+# print(text_4)
 
 
 
