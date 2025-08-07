@@ -1,11 +1,11 @@
-mesadge_num = int(input("введите число: "))
-if mesadge_num > 0:
-    print('Есть сообщения')
-else:
-    print('Сообщений нет')
-
-if __name__ == '__main__':
-    print
+# mesadge_num = int(input("введите число: "))
+# if mesadge_num > 0:
+#     print('Есть сообщения')
+# else:
+#     print('Сообщений нет')
+#
+# if __name__ == '__main__':
+#     print
 
 # вес_сумки = int(input('введите вес: '))
 #

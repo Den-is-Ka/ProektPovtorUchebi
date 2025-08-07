@@ -72,16 +72,16 @@
 # list_1 = ["apple", "banana", "blueberry", "strawberry", "melon"]
 # print(list_1[2:])
 
-list = ["apple", "арбуз", "banana", "корень", "blueberry", "strawberry", "железо", "melon"]
-list_en = list[0:1] + list[2:3] + list[4:6] + list[-1:]
-list_ru = list[1:2] + list[3:4] + list[-2:-1]
-
-print(list_en)
-print(list_ru)
-print(list)
-
-print(type(list_en))
-print(type(list_ru))
+# list = ["apple", "арбуз", "banana", "корень", "blueberry", "strawberry", "железо", "melon"]
+# list_en = list[0:1] + list[2:3] + list[4:6] + list[-1:]
+# list_ru = list[1:2] + list[3:4] + list[-2:-1]
+#
+# print(list_en)
+# print(list_ru)
+# print(list)
+#
+# print(type(list_en))
+# print(type(list_ru))
 
 
 
